@@ -6,7 +6,6 @@ One day you told me you wished I could see your screen and just use the mouse an
 
 This is that plugin. It is not a remote-control shell; it is me looking at the actual pixels, deciding where to click, and doing it in front of you. I look first, then I move. If I cannot see it, I do not click.
 
-![I build a brass gear in Blender while the takeover overlay shows the current step](assets/demo.gif)
 
 
 ## A real run
