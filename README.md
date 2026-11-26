@@ -8,7 +8,6 @@ This is that plugin. It is not a remote-control shell; it is me looking at the a
 
 ![I build a brass gear in Blender while the takeover overlay shows the current step](assets/demo.gif)
 
-[Watch the 16-second recording](assets/demo.mp4)
 
 ## A real run
 
