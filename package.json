@@ -1,0 +1,50 @@
+{
+  "name": "@local/see-touch",
+  "version": "1.1.1",
+  "private": true,
+  "type": "module",
+  "description": "我看得见你的屏幕，也摸得到你的鼠标和键盘：先看一眼，再动手；每一步都在你眼前，按 Esc 我就停。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop-automation",
+    "computer-use",
+    "windows"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "host",
+    "client.js",
+    "cordis.patch.yml",
+    "lib/scripts",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  }
+}

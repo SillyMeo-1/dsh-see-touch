@@ -1,0 +1,5 @@
+node_modules/
+.see-touch/
+*.log
+*.blend1
+assets/_palette.png

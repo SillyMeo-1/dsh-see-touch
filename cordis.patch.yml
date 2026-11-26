@@ -1,0 +1,11 @@
+# Bundle patch for 我看得见也摸得到.
+#
+# The plugin row lives here so the plugin manager knows which entry belongs to this
+# package and the row survives the profile patch being rewritten. Defaults used when
+# a field is absent are in host/config.js.
+- insert:
+    - id: see-touch
+      name: '@local/see-touch'
+      config:
+        captureRetention: 20
+        settleMs: 750
